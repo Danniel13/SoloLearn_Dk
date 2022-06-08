@@ -1,0 +1,2 @@
+Este es el primer archivo TXT creado desde Python con la instruccion "file"
+Linea dos para prueba de conversion a lista

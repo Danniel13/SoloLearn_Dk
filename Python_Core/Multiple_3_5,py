@@ -1,0 +1,10 @@
+#Multiplos de un numero INPUT
+
+x = int(input()) 
+# your code goes here
+minmul35=[valor for valor in range(x) if valor%3==0 and valor%5==0]
+print(minmul35)
+
+
+# multiplos35=[valor for valor in range(x) if valor%3==0 and valor%5==0]
+# print(multiplos35)

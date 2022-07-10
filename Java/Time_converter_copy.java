@@ -5,7 +5,7 @@ package Java;
 
 import java.util.Scanner;
 
-public class Time_converter {
+public class Time_converter_copy  {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 		int days = scanner.nextInt();

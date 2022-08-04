@@ -10,15 +10,41 @@
 
 package Java;
 
+
 import java.util.Scanner;
 
+
 public class LoanCalculator {
-  Scanner scanner = new Scanner(System.in);
+
+  public static void main(String[] args) {
+    
+ 
+  // Scanner scanner = new Scanner(System.in);
+	// 	int amount = scanner.nextInt();{
+	// 	//your code goes here
+  //       Integer result= 0;
+        
+  //   Integer x = 1;
+		//  do {
+    //     // System.out.println(x);
+    //   result += amount*100 /10;
+    //   x=+1;
+    // } while(x <= 3);
+    // System.out.println(result);
+
+    Scanner scanner = new Scanner(System.in);
 		int amount = scanner.nextInt();{
 		//your code goes here
-		 do {
-        // System.out.println(x);
-        amount += ;
-    } while(x <= 3);
+        	Integer result2= 0;
+          Integer result3=0;
+    Integer x = 1;
+		 while (x <= 3){
+	  Integer result1= amount;
+   result2 = amount*10/100;
+	 result3 = result1 - result2;
+   ++x;
+       }
+    System.out.println(result3);
+  }
 }
 }

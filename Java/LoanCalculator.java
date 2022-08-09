@@ -35,16 +35,16 @@ public class LoanCalculator {
     Scanner scanner = new Scanner(System.in);
 		int amount = scanner.nextInt();{
 		//your code goes here
-        	Integer result2= 0;
-          Integer result3=0;
-    Integer x = 1;
-		 while (x <= 3){
-	  Integer result1= amount;
-   result2 = amount*10/100;
-	 result3 = result1 - result2;
-   ++x;
-       }
-    System.out.println(result3);
+    int b=0;
+    int x = 1;
+
+    while(x<=3){
+      x++;
+      b= amount *10/100;
+      amount -=b;
+    }
+System.out.println(amount);
+     
   }
 }
 }
